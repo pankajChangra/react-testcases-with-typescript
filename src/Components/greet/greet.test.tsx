@@ -2,6 +2,8 @@ import { render, screen } from "@testing-library/react"
 import { Greet } from "./greet"
 
 test("Greet Render Correctly", () => {
+
+    // render the component on virtual dom
     render(<Greet />)
 
     // it will check proper upper/lower case of the text
