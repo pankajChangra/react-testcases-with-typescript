@@ -1,12 +1,12 @@
 import { render, screen } from "@testing-library/react"
-import {Main} from "./Main";
+import {Main} from "../Components/fileConvention/Main";
 
 /**
  * You can use .tsx
  */
 
 describe("Greet Group", () => {
-    test("Greet Render With file convention example", () => {
+    test("Greet Render With __test__ folder", () => {
         // render the component on virtual dom
         render(<Main />)
 
