@@ -1,5 +1,5 @@
 import { render, screen } from "@testing-library/react"
-import { NewGreet } from "./newGreet";
+import { NewGreet } from "./NewGreet";
 
 
 test("Greet Render With Tdd example", () => {

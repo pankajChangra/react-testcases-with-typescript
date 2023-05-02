@@ -1,5 +1,5 @@
 import { render, screen } from "@testing-library/react"
-import { Group } from "./group";
+import { Group } from "./Group";
 
 /**
  * You can create multiple or nested describe
